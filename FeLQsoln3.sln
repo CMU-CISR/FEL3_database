@@ -1,0 +1,107 @@
+Base FeL3 FeL3
+Date Created: 45519.7740397685 Modified: 45588.7992745718 2024/08/15 2024/10/23
+Vers 7.00
+Desc LQFesoln solution database for private use of Fe-Al-Ti-Si-O alloy (oxygen <=10 ppm) in equlibrium with ladle slags.
+SolB LQFe 2 1 Unified interaction parameter
+Stat Liquid 0
+Date Created: 45519.7905731597 Modified: 45588.7992745718 2024/08/15 2024/10/23
+Name FeLQsoln
+Desc FeLQsoln
+Desc This "Unified interaction parameter" solution description has been 
+Desc automatically generated. You can change this description and replace it by 
+Desc adding any number of lines of your own. The first word of the first line 
+Desc will be used and displayed as solution long name.
+SubL A 7
+Spec A0 0 Fe Fe
+Spec A1 0 Al Al
+Spec A2 0 Ti Ti
+Spec A3 0 Si Si
+Spec A4 0 Ca Ca
+Spec A5 0 Mg Mg
+Spec A6 0 O O
+EndM 2 A0 Fe
+Amnt 1
+Name Fe
+CpXp Fe#Liquid
+EndM 0 A1 Al
+Amnt 1
+Name Al
+CpXp Al#Liquid
+EndM 0 A2 Ti
+Amnt 1
+Name Ti
+CpXp Ti#Liquid
+EndM 0 A3 Si
+Amnt 1
+Name Si
+CpXp Si#Liquid
+EndM 0 A4 Ca
+Amnt 1
+Name Ca
+CpXp Ca#Gas
+EndM 0 A5 Mg
+Amnt 1
+Name Mg
+CpXp Mg#Gas
+EndM 0 A6 O
+Amnt 1
+Name O
+CpXp 0.5*O2#Gas
+Exss BGP A1
+Powr 1
+GXss -63162.838117 +9.977412*T
+Exss BGP A1
+Powr 2
+GXss 32665.215437 +3.50872322*T
+Exss BGP A2
+Powr 1
+GXss -49044.800137
+Exss BGP A2
+Powr 2
+GXss 28831.394876
+Exss BGP A3
+Powr 1
+GXss -97805.244032
+Exss BGP A3
+Powr 2
+GXss 33761.067855 +85.96371889*T
+Exss BGP A4
+Powr 1
+GXss 123843.794999
+Exss BGP A4
+Powr 2
+GXss 
+Exss BGP A5
+Powr 1
+GXss 114530.712348
+Exss BGP A5
+Powr 2
+GXss 
+Exss BGP A6
+Powr 1
+GXss -127045.7128 +29.100785*T
+Exss BGP A6
+Powr 2
+GXss -973288.22609 +428.40512775*T
+Exss BGP A1
+Powr 1
+GXss 5.9033021*T
+Exss BGP A2
+Powr 1
+GXss -16.0470043*T
+Exss BGP A3
+Powr 1
+GXss 3.5752393*T
+Exss BGP A4
+Powr 1
+GXss 
+Exss BGP A5
+Powr 1
+GXss -4.988706*T
+Exss BGP A6
+Powr 1
+GXss 1.4966118*T
+Exss BGP A1A6
+Powr 1 1
+GXss -460124.9834 +158.807141*T
+SolE LQFe ------------------------------------------------------------
